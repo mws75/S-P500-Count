@@ -129,6 +129,6 @@ def main(companies):
 
 
 if __name__ == "__main__":
-    test_batch = co[300:303]
+    test_batch = co[:]
     print(test_batch)
     main(test_batch)
