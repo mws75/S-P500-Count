@@ -1,3 +1,6 @@
+#See test_batch variable to set a batch < 500, then you won't have to  
+# wait 30 min for the application to run.
+
 import urllib
 from urllib.request import urlopen 
 import sys
